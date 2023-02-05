@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :appointments
   resources :physical_therapists
   resources :exercises
   resources :users
